@@ -1,0 +1,30 @@
+[
+    {
+      "title": "Bubble shooter game",
+      "image": "image/bubble game demo.png",
+      "description": "Developed a interactive web based project using HTML, CSS and JavaScript for functionality, incorporating concepts like Event Handling and Timer Manipulation.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "url" : "https://abhign-123.github.io/Bubble-Game/"
+    },
+    {
+      "title": "Task Management App",
+      "image": "image/Task.png",
+      "description": "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+      "technologies": ["HTML", "CSS", "React"],
+      "url" : "https://abhign-123.github.io/Bubble-Game/"
+    },
+    {
+      "title": "Portfolio Website",
+      "image": "image/Personal Portfolio.png",
+      "description": "A personal portfolio website showcasing projects, skills, and contact information .",
+      "technologies": ["HTML", "CSS", "React", "Framer-motion"],
+      "url" : "https://abhign-123.github.io/Bubble-Game/"
+    },
+    {
+      "title": "Product Landing Page",
+      "image": "image/Product Landing page.png",
+      "description": "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+      "technologies": ["HTML", "CSS"],
+      "url" : "https://abhign-123.github.io/Bubble-Game/"
+    }
+  ]

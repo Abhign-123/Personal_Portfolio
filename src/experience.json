@@ -1,0 +1,24 @@
+[
+    {
+      "year": "2024 - Present",
+      "role": "Apprentice Trainee",
+      "company": "CGI",
+      "description": "Gained hands-on experience in Linux administration, Networking and Oracle DB administration to resolve issues in realtime. Worked on various projects to enhance my technical skills and knowledge. Collaborated with multiple teams to resolve technical issues related to databases, networking and Unix issues improving performance with 0% downtime.",
+      "technologies": ["Linux", "Networking", "Windows", "Oracle DBA"]
+    },
+    {
+      "year": "2023 - 2024",
+      "role": "Virtual Internship",
+      "company": "Slash Mark AICTE",
+      "description": "As a part of learning and improving skills I have completed the projects assigned to me by them. This is a self-learning internship where I have to complete the projects on my own.",
+      "technologies": ["Python", "Svelte", "Three.js", "Postgres"]
+    },
+    {
+      "year": "2022 - 2023",
+      "role": "Frontend Developer Intern",
+      "company": "Virtusa",
+      "description": "As a part of Internship in virtusa I have been trained on Frontend technologies like HTML, CSS, JavaScript, React.js. Worked on various projects to enhance my technical skills and knowledge. Collaborated with multiple teams to deliver high-quality software products on schedule.",
+      "technologies": ["HTML", "CSS", "React.js", "mySQL"]
+    }
+  
+  ]

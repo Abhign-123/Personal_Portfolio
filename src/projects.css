@@ -1,0 +1,83 @@
+.projects {
+  padding: 3rem;
+  background-color: #333;
+  max-height: fit-content;
+}
+
+.project-heading {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.project-info {
+  background-color: #333;
+  color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 20vw;
+  max-height: fit-content;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-info:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(222, 216, 216, 0.2);
+}
+
+.project-info img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem; /* Add spacing below the image */
+}
+
+.project-info p {
+  margin: 1rem 0; /* Add spacing around the description */
+  font-size: 1rem;
+  color: #ddd;
+}
+
+.project-info .techstack {
+  margin: 1rem 0; /* Add spacing above and below the skills section */
+}
+
+.project-info .tech-badge {
+  display: inline-block;
+  background-color: #555;
+  color: white;
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+  margin: 0.2rem;
+  font-size: 0.9rem;
+}
+
+.project-info .live-link {
+  margin-top: 1rem; /* Add spacing above the button */
+  padding: 0.5rem 1.2rem;
+  background-color: #0078D6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+}
+
+.project-info .live-link a {
+  text-decoration: none;
+  color: white;
+}
+
+.project-info .live-link:hover {
+  background-color: #005bb5;
+}

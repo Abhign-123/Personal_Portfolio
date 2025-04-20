@@ -1,0 +1,89 @@
+.about{
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+    margin-top: 5vh;
+    
+    
+}
+
+.about-content{
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 20px;
+    color: white;
+    width: 50%;
+}
+
+.about-content h3,
+.about-content h1 {
+    margin-bottom: 3vh;
+}
+
+
+
+.about-content p,
+.about-content button {
+    margin-bottom: 10vh; /* Add margin to increase gap between elements */
+    
+}
+
+.about-content p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #ddd;
+}
+
+.about-image{
+    width: 30%;
+    height: 30%;
+    border-radius: 20px;
+    margin-top: 10vh;
+}
+
+.about-image img{
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+    margin: 2vh;
+    
+    
+}
+
+.about-content button{
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 2vh;
+}
+
+.about-content button a{
+    text-decoration: none;
+    color: white;
+}
+
+.about-content button:hover{
+    background-color: #777;
+    opacity: 0.8;
+    scale: 1.1;
+}
+
+
+
+.typewriter-text {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    height: 3rem;
+    overflow: hidden;
+    margin: 2vh 2vh 2vh 0;
+  }
+  
+  .typewriter-cursor {
+    display: none;
+  }

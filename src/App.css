@@ -1,0 +1,14 @@
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--ff-poppins);
+}
+
