@@ -6,10 +6,10 @@ import {motion} from 'framer-motion';
 const Projects = () => {
 
   const variants3 = (duration) => ({
-    initial: { opacity: 0, scale: 0.9 , transition: { duration: 0.25, ease: "easeOut" }},
+    initial: { opacity: 0 ,scale:0.9, transition: { duration: 0.25, ease: "easeOut" }},
     whileInView: {
       opacity: 1,
-      scale:1,
+      scale: 1,
       transition: { duration: duration, ease: "easeInOut" }
     }
   })
@@ -25,7 +25,7 @@ const Projects = () => {
       <div className="project-cards">
         {projectdata.map((data, key) => (
           <motion.div 
-            initial="initial" variants={variants3(key*0.25)} whileInView="whileInView"
+            initial="initial" variants={variants3(key*0.35)} whileInView="whileInView"
             className='project-info' key={key}>
             <img src={data.image} alt={data.title} className='demo-image' />
             <h3>{data.title}</h3>

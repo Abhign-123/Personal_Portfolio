@@ -1,6 +1,6 @@
 .projects {
   padding: 3rem;
-  background-color: #333;
+  background-color: #121212;
   max-height: fit-content;
 }
 
@@ -16,10 +16,11 @@
   flex-wrap: wrap;
   gap: 3rem;
   justify-content: center;
+  
 }
 
 .project-info {
-  background-color: #333;
+  background-color: #121212  ;
   color: white;
   padding: 2rem;
   border-radius: 10px;

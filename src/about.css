@@ -1,17 +1,19 @@
 .about{
     display: flex;
     flex-direction: row;
-    background-color: #333;
+    background-color: #121212 ;
     margin-top: 5vh;
     
     
 }
 
+
+
 .about-content{
     margin: 2rem;
     padding: 2rem;
     border-radius: 20px;
-    color: white;
+    color: #EAEAEA;
     width: 50%;
 }
 
@@ -20,6 +22,20 @@
     margin-bottom: 3vh;
 }
 
+.about-content h1{
+    background: linear-gradient(
+        135deg,
+        #B2FFD6 0%,   
+        #00FF99 30%,  
+        #00CC7A 60%,  
+        #008F5A 100% 
+);
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+-webkit-text-fill-color: transparent;
+
+}
 
 
 .about-content p,
@@ -52,13 +68,14 @@
 
 .about-content button{
     padding: 0.5rem 1rem;
-    border-radius: 20px;
-    background-color: #555;
-    color: white;
-    border: none;
+    border-radius: 15px;
+    background-color: #121212 ;
+    color: #F5F5F5;
+    border: #00ff99 solid 2px;
     cursor: pointer;
     transition: background-color 0.3s;
     margin-right: 2vh;
+    font-weight: 500;
 }
 
 .about-content button a{
@@ -67,9 +84,9 @@
 }
 
 .about-content button:hover{
-    background-color: #777;
-    opacity: 0.8;
+    background-color: #009b5d;
     scale: 1.1;
+    border: none;
 }
 
 

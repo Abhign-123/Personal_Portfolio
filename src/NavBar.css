@@ -4,12 +4,26 @@
     align-items: center;
     padding: 1rem 2rem;
     height: 5vh;
-    background-color: #333;
+    background-color: #121212;
     color: white;
     position: fixed;
     width: 100%;
     z-index: 1000;
     top: 0;
+}
+
+.logo{
+    background: linear-gradient(
+  135deg,
+  #00FF99 0%,
+  #00F0FF 35%,
+  #4FACFE 70%,
+  #6E7FF3 100%
+);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
 }
 
 .nav-bar ul{
@@ -38,14 +52,15 @@
 }
 
 .nav-bar ul li a.present{
-    color: rgb(163, 162, 162);
+    color: #00ff99;
 }
 
 
 .nav-bar ul li:hover{
-    background-color: #555;
-    color: white;
-    opacity: 0.8;
+    border: #00FF99 solid 2px;
+    background-color: #121212;
+    
+    
     cursor: pointer;
 }
        
