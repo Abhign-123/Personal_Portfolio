@@ -1,52 +1,119 @@
 .experienced {
     padding: 2rem;
     background-color: #121212;
-  }
+}
   
-  .exp-heading {
+.exp-heading {
     text-align: center;
     margin-bottom: 2rem;
     font-size: 2rem;
     color: #00ff99;
-  }
+}
   
-  .experience {
+.experience {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-  }
+    max-width: 1200px;
+    margin: 0 auto;
+}
   
-  .experience-row {
+.experience-row {
     display: flex;
     align-items: flex-start;
     gap: 5rem;
     padding-bottom: 1rem;
-  }
+}
   
-  .experience-year {
+.experience-year {
     flex: 0 0 15%; /* Fixed width for the year column */
     text-align: right;
-  }
+    min-width: 100px;
+}
   
-  .company-year {
+.company-year {
     font-size: 1.2rem;
     font-weight: bold;
     color: #fff;
-  }
+}
   
-  .company-info {
+.company-info {
     flex: 1; /* Take the remaining space */
-  }
+}
   
-  .company-info h4 {
+.company-info h4 {
     font-size: 1.2rem;
     font-weight: bold;
     color: #fff;
     margin-bottom: 0.5rem;
-  }
+}
   
-  .company-info p {
+.company-info p {
     font-size: 1.2rem;
     color: #fff;
     line-height: 1.5;
-  }
+}
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+    .experienced {
+        padding: 1.5rem 1rem;
+    }
+    
+    .exp-heading {
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .experience-row {
+        flex-direction: column;
+        gap: 1rem;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid #333;
+        margin-bottom: 1rem;
+    }
+    
+    .experience-year {
+        text-align: left;
+        flex: none;
+        min-width: auto;
+    }
+    
+    .company-year {
+        font-size: 1.1rem;
+        color: #00ff99;
+        margin-bottom: 0.5rem;
+    }
+    
+    .company-info h4 {
+        font-size: 1.1rem;
+        margin-bottom: 0.3rem;
+    }
+    
+    .company-info p {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .experienced {
+        padding: 1rem 0.5rem;
+    }
+    
+    .exp-heading {
+        font-size: 1.5rem;
+    }
+    
+    .company-year {
+        font-size: 1rem;
+    }
+    
+    .company-info h4 {
+        font-size: 1rem;
+    }
+    
+    .company-info p {
+        font-size: 0.9rem;
+    }
+}

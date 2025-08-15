@@ -16,22 +16,24 @@
   flex-wrap: wrap;
   gap: 3rem;
   justify-content: center;
-  
 }
 
 .project-info {
-  background-color: #121212  ;
+  background-color: #121212;
   color: white;
   padding: 2rem;
   border-radius: 10px;
   width: 20vw;
+  min-width: 280px;
+  max-width: 350px;
   max-height: fit-content;
   text-align: center;
   transition: transform 0.3s, box-shadow 0.3s;
+  flex: 1 1 300px;
 }
 
 .project-info:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   box-shadow: 0 4px 15px rgba(222, 216, 216, 0.2);
 }
 
@@ -81,4 +83,64 @@
 
 .project-info .live-link:hover {
   background-color: #005bb5;
+  transform: scale(1.05);
+}
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+  .projects {
+    padding: 2rem 1rem;
+  }
+  
+  .project-heading {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+  
+  .project-cards {
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .project-info {
+    width: 100%;
+    min-width: unset;
+    max-width: 400px;
+    padding: 1.5rem;
+    flex: 1 1 100%;
+  }
+  
+  .project-info:hover {
+    transform: scale(1.02);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .projects {
+    padding: 1.5rem 0.5rem;
+  }
+  
+  .project-heading {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .project-cards {
+    gap: 1.5rem;
+  }
+  
+  .project-info {
+    padding: 1rem;
+    max-width: 350px;
+  }
+  
+  .project-info .tech-badge {
+    font-size: 0.8rem;
+    padding: 0.2rem 0.5rem;
+  }
+  
+  .project-info .live-link {
+    padding: 0.4rem 1rem;
+    font-size: 0.9rem;
+  }
 }

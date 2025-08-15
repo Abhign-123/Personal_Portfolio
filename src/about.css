@@ -1,13 +1,12 @@
 .about{
     display: flex;
     flex-direction: row;
-    background-color: #121212 ;
+    background-color: #121212;
     margin-top: 5vh;
-    
-    
+    padding: 1rem;
+    min-height: 95vh;
+    align-items: center;
 }
-
-
 
 .about-content{
     margin: 2rem;
@@ -15,6 +14,7 @@
     border-radius: 20px;
     color: #EAEAEA;
     width: 50%;
+    flex: 1;
 }
 
 .about-content h3,
@@ -34,14 +34,12 @@ background-clip: text;
 -webkit-background-clip: text;
 color: transparent;
 -webkit-text-fill-color: transparent;
-
+    font-size: 2.5rem;
 }
-
 
 .about-content p,
 .about-content button {
     margin-bottom: 10vh; /* Add margin to increase gap between elements */
-    
 }
 
 .about-content p{
@@ -55,6 +53,9 @@ color: transparent;
     height: 30%;
     border-radius: 20px;
     margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-image img{
@@ -62,8 +63,8 @@ color: transparent;
     height: 80%;
     border-radius: 20px;
     margin: 2vh;
-    
-    
+    max-width: 400px;
+    object-fit: cover;
 }
 
 .about-content button{
@@ -99,8 +100,92 @@ color: transparent;
     height: 3rem;
     overflow: hidden;
     margin: 2vh 2vh 2vh 0;
-  }
+}
   
-  .typewriter-cursor {
+.typewriter-cursor {
     display: none;
-  }
+}
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+    .about {
+        flex-direction: column;
+        margin-top: 8vh;
+        padding: 0.5rem;
+        min-height: auto;
+    }
+    
+    .about-content {
+        width: 100%;
+        margin: 1rem;
+        padding: 1.5rem;
+        order: 2;
+    }
+    
+    .about-content h1 {
+        font-size: 2rem;
+        margin-bottom: 2vh;
+    }
+    
+    .about-content p {
+        font-size: 1rem;
+        margin-bottom: 5vh;
+    }
+    
+    .about-content button {
+        margin-bottom: 3vh;
+        padding: 0.7rem 1.2rem;
+        font-size: 0.9rem;
+    }
+    
+    .about-image {
+        width: 100%;
+        margin-top: 2vh;
+        order: 1;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .about-image img {
+        width: 60%;
+        height: auto;
+        max-width: 250px;
+    }
+    
+    .typewriter-text {
+        font-size: 1.5rem;
+        height: 2.5rem;
+        margin: 1vh 1vh 1vh 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about-content {
+        margin: 0.5rem;
+        padding: 1rem;
+    }
+    
+    .about-content h1 {
+        font-size: 1.5rem;
+    }
+    
+    .about-content p {
+        font-size: 0.9rem;
+    }
+    
+    .about-content button {
+        padding: 0.6rem 1rem;
+        font-size: 0.8rem;
+        margin-right: 1vh;
+    }
+    
+    .about-image img {
+        width: 70%;
+        max-width: 200px;
+    }
+    
+    .typewriter-text {
+        font-size: 1.2rem;
+        height: 2rem;
+    }
+}
