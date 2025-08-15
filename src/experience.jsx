@@ -7,7 +7,7 @@ const Experience = () => {
   return (
     <div className='experienced' id='experience'>
       <motion.h1 
-        initial={{ opacity: 0, y: -50 }}
+        initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: "linear"}}
         className='exp-heading'>Experience</motion.h1>
@@ -17,7 +17,7 @@ const Experience = () => {
           
               initial={{
                 opacity: 0,
-                x: key % 2 === 0 ? 50 : -50
+                x: key % 2 === 0 ? 20 : -20
               }}
               whileInView={{
                 opacity: 1,
