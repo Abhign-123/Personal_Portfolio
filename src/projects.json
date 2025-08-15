@@ -22,7 +22,7 @@
     },
     {
       "title": "Product Landing Page",
-      "image": "image/Product Landing page.png",
+      "image": "image/product_landing_page.png",
       "description": "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
       "technologies": ["HTML", "CSS"],
       "url" : "https://abhign-123.github.io/Bubble-Game/"
