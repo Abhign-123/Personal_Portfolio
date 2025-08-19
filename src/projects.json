@@ -7,18 +7,18 @@
       "url" : "https://abhign-123.github.io/Bubble-Game/"
     },
     {
-      "title": "Task Management App",
-      "image": "image/Task.png",
-      "description": "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-      "technologies": ["HTML", "CSS", "React"],
-      "url" : "https://abhign-123.github.io/Bubble-Game/"
+      "title": "Weather Forecast Website",
+      "image": "image/Weather_forecast_website.png",
+      "description": "A web application that provides real-time weather information for any location, utilizing APIs to fetch data and display it in a user-friendly interface.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "url" : "https://abhign-123.github.io/Weather-forecast-website/"
     },
     {
       "title": "Portfolio Website",
       "image": "image/Personal Portfolio.png",
       "description": "A personal portfolio website showcasing projects, skills, and contact information .",
       "technologies": ["HTML", "CSS", "React", "Framer-motion"],
-      "url" : "https://abhign-123.github.io/Bubble-Game/"
+      "url" : "https://personal-portfolio-abhign.vercel.app/"
     },
     {
       "title": "Product Landing Page",
