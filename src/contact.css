@@ -2,26 +2,78 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 30vh;
+    min-height: 30vh;
     background-color: #121212;
     color: white;
+    padding: 2rem;
+    justify-content: center;
 }
+
 .contact h2{
-    margin: 3vh;
+    margin: 3vh 0;
+    font-size: 2rem;
 }
+
 .contact-icons {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
     margin-top: 3vh;
+    flex-wrap: wrap;
 }
 
 .contact-icons a {
     color: white; /* Set the icon color to white */
     font-size: 2rem;
-    transition: color 0.3s;
+    transition: color 0.3s, transform 0.3s;
+    padding: 0.5rem;
 }
 
 .contact-icons a:hover {
     color: #ff6347; /* Change to your desired hover color */
+    transform: scale(1.1);
+}
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+    .contact {
+        padding: 1.5rem 1rem;
+        min-height: 25vh;
+    }
+    
+    .contact h2 {
+        font-size: 1.8rem;
+        margin: 2vh 0;
+    }
+    
+    .contact-icons {
+        gap: 1.5rem;
+        margin-top: 2vh;
+    }
+    
+    .contact-icons a {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contact {
+        padding: 1rem 0.5rem;
+        min-height: 20vh;
+    }
+    
+    .contact h2 {
+        font-size: 1.5rem;
+        margin: 1.5vh 0;
+    }
+    
+    .contact-icons {
+        gap: 1rem;
+        margin-top: 1.5vh;
+    }
+    
+    .contact-icons a {
+        font-size: 1.5rem;
+        padding: 0.3rem;
+    }
 }

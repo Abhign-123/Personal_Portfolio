@@ -2,7 +2,7 @@
     background-color: #121212;
     color: #F5F5F5;
     padding: 2rem;
-    height: 100vh;
+    min-height: 100vh;
     align-content: center;
 }
 
@@ -10,18 +10,23 @@
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    font-size: 2rem;
 }
 
 .tech-icons ul {
     list-style: none;
     padding: 0;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .tech-category {
-    margin-bottom: 0.25rem;
+    margin-bottom: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .tech-category h4 {
@@ -29,12 +34,15 @@
     text-align: center;
     padding-top: 1%;
     margin-right: 1rem;
+    min-width: 120px;
+    flex-shrink: 0;
 }
 
 .tech-category div {
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .tech-category div svg {
@@ -68,3 +76,72 @@
 
 .operating-systems .DiLinux { color: #FCC624; }
 .operating-systems .DiWindows { color: #0078D6; }
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+    .technologies {
+        padding: 1.5rem 1rem;
+        min-height: auto;
+    }
+    
+    .technologies h1 {
+        font-size: 1.8rem;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .tech-category {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1.5rem;
+        gap: 0.5rem;
+    }
+    
+    .tech-category h4 {
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+        min-width: auto;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .tech-category div {
+        gap: 0.8rem;
+        justify-content: center;
+    }
+    
+    .tech-category div svg {
+        font-size: 1.8rem;
+    }
+    
+    .tech-category div svg:hover {
+        transform: scale(1.15);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .technologies {
+        padding: 1rem 0.5rem;
+    }
+    
+    .technologies h1 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .tech-category {
+        margin-bottom: 1rem;
+    }
+    
+    .tech-category h4 {
+        font-size: 0.9rem;
+    }
+    
+    .tech-category div {
+        gap: 0.6rem;
+    }
+    
+    .tech-category div svg {
+        font-size: 1.5rem;
+    }
+}
