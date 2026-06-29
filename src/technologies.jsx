@@ -1,7 +1,10 @@
 import React from 'react';
 import './technologies.css';
-import { DiHtml5, DiCss3, DiJavascript1, DiReact, DiBootstrap, DiJava, DiLinux, DiWindows, DiMsqlServer, DiGit, DiGithub, DiVisualstudio, DiNpm, DiPython, DiMysql } from "react-icons/di";
+import { SiTailwindcss, SiNextdotjs, SiPostgresql, SiPostman, SiJetbrains, SiSpring, SiSpringboot, SiHibernate, SiSpringsecurity, SiApachemaven  } from "react-icons/si"; 
+import { VscCode } from "react-icons/vsc"; 
+import { DiHtml5, DiCss3, DiJavascript1, DiReact, DiBootstrap,  DiJava, DiLinux, DiWindows, DiMsqlServer, DiGit, DiGithub, DiVisualstudio, DiNpm, DiPython, DiMysql } from "react-icons/di";
 import {motion} from "framer-motion";
+
 
 const variants2 = (duration) => ({
   initial: {  y: -10 },
@@ -33,8 +36,21 @@ const Technologies = () => {
               <motion.div variants={variants2(2)} initial ="initial" animate="visible"><DiJavascript1 className='DiJavascript1' /></motion.div>
               <motion.div variants={variants2(2.5)} initial ="initial" animate="visible"><DiReact className='DiReact' /></motion.div>
               <motion.div variants={variants2(2)} initial ="initial" animate="visible"><DiBootstrap className='DiBootstrap' /></motion.div>
+              <motion.div variants={variants2(2.5)} initial ="initial" animate="visible"><SiTailwindcss className='SiTailwindcss' /></motion.div>
+              <motion.div variants={variants2(2)} initial ="initial" animate="visible"><SiNextdotjs className='SiNextdotjs' /></motion.div>
             </div>
           </li>
+          <li className='tech-category'>
+            <h4>Backend Technologies</h4>
+            <div className='back-end'>
+              <motion.div variants={variants2(2)} initial ="initial" animate="visible"><SiSpring className='SiSpring' /></motion.div>
+              <motion.div variants={variants2(2.5)} initial ="initial" animate="visible"><SiSpringboot className='SiSpringboot' /></motion.div>
+              <motion.div variants={variants2(2)} initial ="initial" animate="visible"><SiHibernate className='SiHibernate' /></motion.div>
+              <motion.div variants={variants2(2.5)} initial ="initial" animate="visible"><SiSpringsecurity className='SiSpringsecurity' /></motion.div>
+              <motion.div variants={variants2(2)} initial ="initial" animate="visible"><SiApachemaven className='SiApachemaven' /></motion.div>
+            </div>
+          </li>
+              
           <li className='tech-category'>
             <h4>Version Control</h4>
             <div className='version-control'>
@@ -47,6 +63,7 @@ const Technologies = () => {
             <div className='databases'>
               <motion.div variants={variants2(2)} initial ="initial" animate="visible"><DiMysql className='DiMysql' /></motion.div>
               <motion.div variants={variants2(2.5)} initial ="initial" animate="visible"><DiMsqlServer className='DiMsqlServer' /></motion.div>
+              <motion.div variants={variants2(2)} initial ="initial" animate="visible"><SiPostgresql className='SiPostgresql' /></motion.div>
             </div>
           </li>
           <li className='tech-category'>
@@ -54,6 +71,9 @@ const Technologies = () => {
             <div></div><div className='tools'>
               <motion.div variants={variants2(2)} initial ="initial" animate="visible"><DiVisualstudio className='DiVisualstudio' /></motion.div>
              <motion.div variants={variants2(2.5)} initial ="initial" animate="visible"><DiNpm className='DiNpm' /></motion.div> 
+              <motion.div variants={variants2(2)} initial ="initial" animate="visible"><SiPostman className='SiPostman' /></motion.div>
+              <motion.div variants={variants2(2.5)} initial ="initial" animate="visible"><VscCode className='VscCode' /></motion.div>
+              <motion.div variants={variants2(2)} initial ="initial" animate="visible"><SiJetbrains className='SiJetbrains' /></motion.div>
             </div>
           </li>
           <li className='tech-category'>

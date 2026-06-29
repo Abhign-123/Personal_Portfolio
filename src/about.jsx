@@ -24,7 +24,7 @@ const Aboutme = () => {
         <motion.h1  initial ="hidden" animate="visible" variants={variants1(0.5)}>Abhign Gattu</motion.h1>
           <Typewriter 
           options={{
-            strings: ['Frontend Developer', 'React Developer', 'Adaptable Fresher'],
+            strings: ['Java Full Stack Developer','Frontend Developer', 'React Developer'],
             autoStart: true,
             loop: true,
             wrapperClassName: 'typewriter-text',
@@ -33,8 +33,13 @@ const Aboutme = () => {
         />
         
         <motion.p  initial ="hidden" animate="visible" variants={variants1(1)}> 
-          Highly motivated and adaptable fresher with a strong foundation in software development, including front-end technologies, networking concepts, and Windows and Linux operating systems. Eager to contribute to a dynamic development team and ready to learn and switch technologies according to the company’s requirements to deliver high-quality
-            solutions.</motion.p>
+          Software Developer with hands-on experience building full-stack web applications using Java, Spring Boot, React.js, 
+          JavaScript, PostgreSQL, and REST APIs. 
+          Passionate about developing scalable backend services, secure authentication systems, and responsive user interfaces 
+          while following modern software engineering practices. 
+          Experienced in creating production-ready applications with clean architecture, reusable components, and database integration. 
+          Completed a one-year apprenticeship at CGI, gaining industry experience in Linux system administration, automation, 
+          and production support while collaborating in enterprise environments..</motion.p>
         <motion.button initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{duration : 0.5}} >
           <a href={resume} download="Abhign_Resume">Download Resume</a></motion.button>
         <button onClick={gotoContact}>

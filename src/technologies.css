@@ -61,15 +61,27 @@
 .front-end .DiJavascript1 { color: #F7DF1E; }
 .front-end .DiReact { color: #61DAFB; }
 .front-end .DiBootstrap { color: #7952B3; }
+.front-end .SiTailwindcss { color: #38BDF8; } 
+.front-end .SiNextdotjs { color: #FFFFFF; }
+
+.back-end .SiSpring { color: #6DB33F; }
+.back-end .SiSpringboot { color: #6DB33F; }
+.back-end .SiHibernate { color: #59666C; }
+.back-end .SiSpringsecurity { color: #6DB33F; }
+.back-end .SiApachemaven { color: #C71A36; }
 
 .version-control .DiGit { color: #F05032; }
-.version-control .DiGithub { color: #181717; }
+.version-control .DiGithub { color: #FFFFFF; }
 
 .databases .DiMysql { color: #4479A1; }
 .databases .DiMsqlServer { color: #CC2927; }
+.databases .SiPostgresql { color: #336791; }
 
 .tools .DiVisualstudio { color: #5C2D91; }
 .tools .DiNpm { color: #CB3837; }
+.tools .SiJetbrains { color: #ffffff; }
+.tools .SiPostman { color: #FF6C37; }
+
 
 .programming-languages .DiJava { color: #007396; }
 .programming-languages .DiPython { color: #3776AB; }
