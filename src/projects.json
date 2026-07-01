@@ -1,4 +1,46 @@
 [
+
+    {
+  "title": "AI-Powered Task Manager",
+  "image": "image/AiTaskManagerDemo.png",
+  "description": "A full-stack task management application featuring secure JWT authentication, role-based access, task assignment, deadline tracking, and real-time task status management.",
+  "technologies": [
+    "Java",
+    "Spring Boot",
+    "Spring Security",
+    "Hibernate",
+    "JPA",
+    "PostgreSQL",
+    "React",
+    "JWT"
+  ],
+  "url": "https://github.com/Abhign-123/AI-Powered-Task-manager-website"
+},
+{
+  "title": "Real-Time Crypto Tracker",
+  "image": "image/CryptoTrackerDemo.png",
+  "description": "A React-based cryptocurrency dashboard that fetches and displays live market data, price trends, and key statistics for 100+ digital assets using REST APIs.",
+  "technologies": [
+    "React",
+    "JavaScript",
+    "REST API",
+    "Vite"
+  ],
+  "url": "https://real-time-crypto-tracker-opal.vercel.app/"
+},
+{
+  "title": "Healthcare Dashboard",
+  "image": "image/HealthcareDashboard.png",
+  "description": "A responsive healthcare dashboard built with React that visualizes patient information and healthcare metrics through dynamic REST API integration.",
+  "technologies": [
+    "React",
+    "HTML",
+    "CSS",
+    "REST API"
+  ],
+  "url": "https://healthcare-dashboard-coalition-tech.vercel.app/"
+},
+
     {
       "title": "Bubble shooter game",
       "image": "image/bubble game demo.png",
